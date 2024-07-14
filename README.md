@@ -36,6 +36,10 @@ breakdown by regions, products and identification of trends.
 #### PowerBI Model View
 ![Model View - Established Relationships](https://github.com/user-attachments/assets/4d17e637-5583-49de-abc3-f115055d8160)
 
+#### Dashboard at a glance
+![image](https://github.com/user-attachments/assets/39e04608-125e-492a-a50b-3f454f3e58cc)
+
+
 
 
 
