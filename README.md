@@ -29,4 +29,10 @@ Pull data from MySQL(OLTP) -> ETL -> Push data to Data Warehouse(OLAP) (Snowflak
 END PRODUCT: A powerful dashboard where business manager can track revenue numbers, YoY numbers, 
 breakdown by regions, products and identification of trends.  
 
+#### Database Schema
+![DB Schema](https://github.com/user-attachments/assets/53369e1e-697e-4e33-88a7-3fda193cddfe)
+
+#### PowerBI Model View
+![Model View - Established Relationships](https://github.com/user-attachments/assets/4d17e637-5583-49de-abc3-f115055d8160)
+
 
