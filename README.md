@@ -1,5 +1,9 @@
 ## Sales_Insight_Using_PowerBI_MySQL
 
+
+https://github.com/user-attachments/assets/7fde4a12-9b76-4bf1-b450-ba747b47236d
+
+
 ### PROBLEM STATEMENT: 
 XYZ hardware is a company that supplies computer hardware and peripherals to its clients across India. Head office in Delhi and regional offices spread across different regions of India. The Sales Director is facing challenges: Market is growing dynamically and she's facing challenges in tracking insights of her
 business. She has regional managers in North India, South India and Central India and whenever she needs insights, she connects with them over call or email. The problem, however, is that the conversations are verbal and it may happen that the conversations may appear rosier than what data would suggest. So, the Sales Director is frustrated with the situation. When asked for numbers, the regional managers gave her 60 big Excel files. She is more interested in an interactive dashboard where she can go and look at the real data.
