@@ -1,6 +1,6 @@
 ## Sales_Insight_Using_PowerBI_MySQL
 
-
+#### Dashboard Demo
 https://github.com/user-attachments/assets/7fde4a12-9b76-4bf1-b450-ba747b47236d
 
 
@@ -12,10 +12,10 @@ business. She has regional managers in North India, South India and Central Indi
 A picture is worth a thousand words. A Power BI dashboard is based on data and not verbal estimates. This will allow her to get a more factual idea of the business and make data driven business decisions.
 
 Project Planning through AIMS Grid -
-A> PURPOSE: To unlock sales insights that were not visible before for sales team for decision support and automate them to reduce manual time spent in data gathering.
-B> STAKEHOLDERS: Sales Director, Marketing Team, Customer Service Team, Data Analytics Team, IT 
-C> END RESULT: An automated dashboard providing quick and latest sales insights in order to support data driven decision making.
-D> SUCCESS CRITERIA
+A. PURPOSE: To unlock sales insights that were not visible before for sales team for decision support and automate them to reduce manual time spent in data gathering.\n
+B. STAKEHOLDERS: Sales Director, Marketing Team, Customer Service Team, Data Analytics Team, IT\n
+C. END RESULT: An automated dashboard providing quick and latest sales insights in order to support data driven decision making.
+D. SUCCESS CRITERIA
 1. Dashboards uncovering sales order insights with latest data available.
 2. Sales team able to take better decisions and prove 10% cost savings of total spend.
 3. Sales analysts stop data gathering manually in order to save 20% of their business time.
@@ -36,6 +36,6 @@ breakdown by regions, products and identification of trends.
 #### PowerBI Model View
 ![Model View - Established Relationships](https://github.com/user-attachments/assets/4d17e637-5583-49de-abc3-f115055d8160)
 
-#### Dashboard Demo
+
 
 
