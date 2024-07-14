@@ -12,7 +12,7 @@ business. She has regional managers in North India, South India and Central Indi
 A picture is worth a thousand words. A Power BI dashboard is based on data and not verbal estimates. This will allow her to get a more factual idea of the business and make data driven business decisions.
 
 Project Planning through AIMS Grid -
-A. PURPOSE: To unlock sales insights that were not visible before for sales team for decision support and automate them to reduce manual time spent in data gathering.\n
+A. PURPOSE: To unlock sales insights that were not visible before for sales team for decision support and automate them to reduce manual time spent in data gathering.<br/>
 B. STAKEHOLDERS: Sales Director, Marketing Team, Customer Service Team, Data Analytics Team, IT\n
 C. END RESULT: An automated dashboard providing quick and latest sales insights in order to support data driven decision making.
 D. SUCCESS CRITERIA
