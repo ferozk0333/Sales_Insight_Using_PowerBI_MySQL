@@ -1,0 +1,82 @@
+Data Exploration and Cleaning: (Summary)
+
+Issues Identified:
+	Invalid entries in the markets table (non-Indian entries removed).
+	Garbage values in the transactions table (sales amounts ≤ 0 filtered).
+	Currency inconsistencies ("INR\r" and "USD\r" corrected).
+	Duplicates removed.
+
+Actions:
+	Performed data cleaning in MySQL Workbench and Power Query to ensure a high-quality dataset for dashboard creation.
+
+ETL Process:
+
+	Connected MySQL database to Power BI.
+	Transformed data in Power Query by filtering invalid rows, normalizing currency values, and retaining only relevant data.
+	Constructed a data pipeline:
+	Source Data (MySQL) → Navigation (Raw Data) → Filtered Rows → Added Conditional Columns
+
+Dashboard Development:
+
+	Visual Components:
+		Slicers for dynamic filtering.
+	Horizontal stacked charts for regional comparisons.
+	Cards for KPIs like total revenue and YoY growth.
+	Line charts for trend analysis over time.
+	Insights Delivered:
+		Revenue breakdown by region, product category, and time.
+		Identification of sales trends and anomalies.
+		Data-driven recommendations for business growth.
+
+
+
+
+1. Exploring dataset: (In-depth including rough work)
+
+Basic analysis using MySQL Workbench.
+---Markets table - Two entries with zone as ''. These market names are outside India though.
+Maybe there was one time buiness with these places and hence they are there. But our problem statement
+states that the company's business focus is only in India and the stakeholders have asked to not consider abroad entries. 
+
+---Products table:
+
+191	Own Brand
+88	Distribution
+
+---Transactions Table:
+Over 150K records in the transaction table.
+Sales_amount <= 0 in many rows. Doesn't make sense. Garbage values.
+There are two currency types: INR and USD.
+
+Duplicate records -- select distinct(currency) from transactions;
+ 'INR'
+'INR\r'
+
+select count(*) from transactions where currency = 'INR\r'; --> 150000
+select count(*) from transactions where currency = 'INR'; --> 279
+select count(*) from transactions where currency = 'USD'; -->2
+select count(*) from transactions where currency = 'USD\r'; -->2
+
+select * from transactions where currency = 'USD' or currency = 'USD\r'; --> Indeed duplicate
+
+
+---Customer table contains all the clients(38) of the Company. Brick & Mortar OR E-Commerce platform. 
+
+2. Data Cleaning and ETL
+	Pull Data in Power BI  -  Connect localhost, preview database and load first
+	ETL using Power Query - Choose table -> Home -> Transform data
+		Apply filter to markets table for non-blank
+		Apply filter to uncheck <=0 sales_amount in transactions table
+		Convert USD to INR -> Add Column -> Conditional -> New column 'Normalized_currency' 
+		Apply filter to select only INR and USD (remove duplicates)
+		Home -> Close and Apply
+
+	
+Data Pipeline: Source Data (MySQL) -> Navigation (Raw data) -> Filtered rows -> Added Conditional column
+
+3. Building Dashboard
+	Slicer
+	Horizonal Stacked charts
+	Cards
+	Line Chart
+
