@@ -37,12 +37,7 @@ https://github.com/user-attachments/assets/7fde4a12-9b76-4bf1-b450-ba747b47236d
 2. Connect your Power BI desktop to the provided MySQL database.  
 3. Load the `.pbix` file to explore the dashboard.  
 
----
 
-## Future Enhancements  
-- Automate data updates via an OLAP integration (e.g., Snowflake).  
-- Incorporate automated email reports for monthly sales metrics.  
-- Expand dashboard functionality to include predictive analytics.  
 
 ---
 
