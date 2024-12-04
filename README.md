@@ -29,13 +29,6 @@ https://github.com/user-attachments/assets/7fde4a12-9b76-4bf1-b450-ba747b47236d
 - **Visualization Tool**: Power BI  
 - **Schema Design**: Star schema with fact (transactions) and dimension tables (markets, products, customers, date)  
 
----
-
-## Project Structure  
-- `data_cleaning/`: Contains SQL scripts used for cleaning the database.  
-- `dashboard_files/`: Includes the Power BI `.pbix` file for the project.  
-- `images/`: Screenshots of key visuals from the dashboard.  
-- `documentation/`: Detailed ETL process and schema design description.  
 
 ---
 
@@ -55,8 +48,8 @@ https://github.com/user-attachments/assets/7fde4a12-9b76-4bf1-b450-ba747b47236d
 
 ## UI & Project Diagrams
 ![PowerBI-1](https://github.com/user-attachments/assets/79819c95-d52a-4d34-8832-a337e4e8c50e)
-![PowerBI-2](https://github.com/user-attachments/assets/f00e1c14-2ac4-467a-affe-61a7bb276213)
 ![PowerBI-3 Model View](https://github.com/user-attachments/assets/2e671b07-0350-423c-84eb-7953d977169c)
+![PowerBI-2](https://github.com/user-attachments/assets/f00e1c14-2ac4-467a-affe-61a7bb276213)
 
 
 
